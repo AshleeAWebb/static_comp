@@ -1,0 +1,103 @@
+ * {
+  margin: 0;
+  max-width: 100;
+  padding: 0;
+}
+
+body {
+  position: absolute;
+  width: 897px;
+  height: 1223px; 
+  background: #BFB5B2;
+  gap: 10px;
+  max-width: 100%; 
+  overflow-wrap: normal;
+}
+
+header {
+  display: flex;
+  position: relative;
+   width: 897px;
+  height: 111px;  
+  background: #2E4045;
+  flex-direction: row;
+  align-content: stretch;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  grid-template-rows: 1fr; 
+  gap: 10px; 
+}
+
+
+.video-box {
+  position: relative;
+  width: 208px;
+  height: 304px;
+  background: #DDD4D4;
+}
+
+.video-info {
+  position: relative;
+  width: 208px;
+  height: 195px;
+}
+
+.video-url{
+  position: relative;
+  width: 181px;
+  height: 35px;
+  background: #C7BBC9;
+  display: flex;
+} 
+
+.icon{
+  width:10px;
+  height: 10px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+
+.website-logo {
+  display: flex;
+  width: 216px;
+  height: 154px;
+}
+
+.video {
+  position: relative;
+  width: 208px;
+  height: 111px;
+}
+
+button {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 2;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.video-img {
+  position: absolute;
+  width: 208px;
+  height: 111px;
+}
+
+.navigate-icon {
+  width: 20px;
+  height: 20px;
+}
