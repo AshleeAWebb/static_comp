@@ -1,6 +1,6 @@
  * {
-   margin: 0;
-   padding: 0;
+   margin: 0px;
+   padding: 0px;
   }
   
   header {
@@ -65,7 +65,8 @@
   }
   
   body {
-  width: 100%; /* Set the body width to 100% */
+  max-width: 897px;
+  width: 100%; 
   min-height: 100vh;
   background: #BFB5B2;
   display: flex;
@@ -73,6 +74,7 @@
   justify-content: flex-start;
   align-items: center;
   font-family: 'Anuphan', sans-serif;
+  overflow-x: hidden;
   }
 
   h1{
@@ -108,6 +110,10 @@
   font-family: 'STIX Two Text', serif;
   align-self: flex-start;
   margin-left: 15px;
+ }
+
+ h4 {
+  font-style: italic;
  }
 
  .admin-icon{
